@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- basic -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- mobile metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <!-- site metas -->
+  <title>Beneficie</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" type="text/css" href="cs/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" type="text/css" href="css/beneficie.css">
+  <!-- Responsive-->
+  
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="cs/jquery.mCustomScrollbar.min.css">
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <!-- owl stylesheets -->
+
+    <link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--header section start -->
+  
+    
+    <header>
+        <div class="logo-container">
+          <img src="Blue Elegant Concept Foundation Logo (1).png"  class="logo" alt="Logo">
+        </div>
+        
+          
+            
+              
+              <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="">Accuille</a>
+                  <a href="">Achat</a>
+                  <a href="">A Propos De Nous</a>
+                  <a href="">Profile</a>
+                  <a href="">Connexion</a>
+                  <a href="">Registrer</a>
+                  <a href="">Déconnexion</a>
+                </div>
+              </div>
+              <span class="navbar-toggler-icon"></span>
+              <span onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>
+    </header>      
+          
+       
+      
+  
+  <!-- header section end -->
+
+  <!-- profil section start -->
+
+  <div class="header__wrapper">
+    <header></header>
+    <div class="cols__container">
+      <div class="left__col">
+        <div class="img__container">
+          <img src="images/user.jpeg" alt="Anna Smith" />
+          
+        </div>
+        <h2>Samantha Haddid</h2>
+        <a href="edit_profile.html"><p>Editer Votre Profile</p></a>
+        
+        <div class="content">
+          
+          <br>
+          <p>Bénéficie</p>
+          <p>SamanthaHaddid@example.com</p>
+          
+          <p>06******06</p>
+          <p>Tanger</p>
+
+          
+        </div>
+      </div>
+    
+    </div>
+  </div>
+
+  <!-- profil section end -->
+  
+
+  <!-- copyright section start -->
+  
+  <script src="js/custom.js"></script>
+  <!-- javascript -->
+  
+  
+
+  <script>
+    $(document).ready(function () {
+      $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+      });
+
+      $(".zoom").hover(function () {
+
+        $(this).addClass('transition');
+      }, function () {
+
+        $(this).removeClass('transition');
+      });
+    });
+  </script>
+  <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
+</body>
+
+</html>
